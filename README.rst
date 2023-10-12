@@ -46,6 +46,8 @@ Documentation
 
 A more detailed documentation of OSeMBE can be found here: https://osembe.readthedocs.io/en/latest/
 
+The OSEMBE naming convention for the codes of the different sets can be found in the documentation. The codes can also be decoded using the script code_decipherer.
+
 Licensing
 ---------
 OSeMBE is released under the terms of a CC-BY-4.0 International License Agreement. The license text can be found in the LICENSE.
