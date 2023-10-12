@@ -45,6 +45,7 @@ Documentation
 -------------
 
 A more detailed documentation of OSeMBE can be found here: https://osembe.readthedocs.io/en/latest/
+The OSEMBE codes of the different sets can be found in the documentation. The codes can also be decoded using the script code_decipherer.
 
 Licensing
 ---------
