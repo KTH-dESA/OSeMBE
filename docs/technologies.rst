@@ -40,3 +40,6 @@ Technologies
 +------+-----------------------------------------------+
 |  00  | unspecified                                   |
 +------+-----------------------------------------------+
+
+Technology codes can also contain the values of country codes, for example if they represent interconnecters.
+
