@@ -7,7 +7,7 @@ Technology
 Technologies in OSeMBE are named according to the following structure:
 
 +---------+-----------+-------------------+--------------+-------+-------+-----+----------------+
-| **AA**  |  **BB**   |       **CC**      |    **D**    | **E** | **F** |     | **AABBCCDEF** |
+| **AA**  |  **BB**   |       **CC**      |     **D**    | **E** | **F** |     | **AABBCCDEF**  |
 +---------+-----------+-------------------+--------------+-------+-------+-----+----------------+
 | Country | Commodity | Technology /      | Energy level | Age   | Size  | --> | Technology     |
 |         |           | connected Country |              |       |       |     | name           |
