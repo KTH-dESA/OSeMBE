@@ -6,15 +6,20 @@ This Python script decodes technology and fuel codes.
 The main function creates a new or updates a CSV file with appended decoded descriptions in a new column.
 
 Functions:
-1. decode_tech(tech_code): Decodes a single 9/-digit technology code.
-2. decode_fuel(fuel_code): Decodes a single 4-digit fuel code.
+1. decode_code(code): decodes a single code of 4 or 9 digits for an emission or a technology.
 3. add_code_descriptions_to_csv(input_csv_filename, output_csv_filename=None): creates a new csv file including a new column with code descriptions.
 
-Example Usage:
-input_csv_filename = 'input_data\\WP1_NetZero\\data\\FUEL.csv'
-output_csv_filename = 'output_codes_fuel.csv'
+Example Usages:
+```python
+code = 'DEBFCCH1'
+print(decode_code(code))
+# Output: Germany (DE)| Biofuel (BF)| Combined cycle (CC)| Primary energy commodity (P)| age 1| size 1	
+```	
+or
+```python	
 add_code_descriptions_to_csv(input_csv_filename, output_csv_filename)
-
+# Output: Code descriptions saved to 'output_codes_fuel.csv'.
+```
 Author: Timon Renzelmann
 """
 
